@@ -27,4 +27,4 @@ document.getElementById("copy-message").addEventListener("click", async () => {
     statusNode.textContent = message;
   }
 });
-statusNode.textContent = contactUrl ? "Founders contact is ready." : "A direct contact URL must be configured before public publishing.";
+statusNode.textContent = contactUrl ? "Founders contact is ready." : "For this assisted beta, use the contact link shared with you or copy the reservation message.";
