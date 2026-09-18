@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-labelledby="title desc">
+  <title id="title">Rowan tree</title>
+  <desc id="desc">A simple rowan tree with a warm trunk and fresh green leaves.</desc>
+  <path fill="#6d4b35" d="M58 108c3-18 3-34 0-49h12c-3 15-3 31 0 49z"/>
+  <path fill="none" stroke="#6d4b35" stroke-width="7" stroke-linecap="round" d="M64 72 42 48m22 20 25-26M63 61 62 34"/>
+  <circle fill="#315c42" cx="36" cy="41" r="18"/>
+  <circle fill="#477a55" cx="61" cy="29" r="20"/>
+  <circle fill="#315c42" cx="91" cy="37" r="19"/>
+  <circle fill="#5f8f62" cx="48" cy="58" r="18"/>
+  <circle fill="#477a55" cx="80" cy="58" r="20"/>
+  <circle fill="#b7573c" cx="30" cy="54" r="4"/>
+  <circle fill="#cf6847" cx="93" cy="52" r="4"/>
+  <circle fill="#b7573c" cx="72" cy="23" r="4"/>
+</svg>
