@@ -1,0 +1,14 @@
+SYNTHETIC SPREADSHEET RESCUE SAMPLE
+
+Input rows: 6
+Output rows: 5
+Confirmed duplicate rows removed: 1
+Names trimmed/standardized: 3
+Phone formats standardized: 6
+Status labels normalized: 6
+Unambiguous dates standardized: 4
+Ambiguous dates guessed: 0
+Ambiguous values flagged for review: 1
+Currency/amount formatting standardized: 4
+
+This is fictional demonstration data, not client work.
