@@ -1,0 +1,7 @@
+customer_id,name,phone,status,last_order,total
+001,"  Acme Services ","6105550199","active ","9/1/26","1250.00"
+002,"North Star LLC","(610) 555-0118","Active","2026-09-03","780"
+002,"North Star LLC ","610-555-0118","active","2026-09-03","780.00"
+003,"Blue Ridge Co.","610.555.0144","INACTIVE","03/04/26",""
+004,"Valley Supply","6105550175"," active","2026-09-05","245.5"
+005,"Keystone Works","610-555-0180","Active ","2026/09/06","99.99"
