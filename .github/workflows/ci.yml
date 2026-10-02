@@ -1,0 +1,28 @@
+name: CI
+on:
+  pull_request:
+  push:
+    branches: [main]
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Static smoke check
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          required = ["index.html","styles.css","landing.js","config.js","privacy.html","getting-started.html"]
+          missing = [p for p in required if not Path(p).is_file()]
+          if missing:
+              raise SystemExit(f"Missing required landing files: {missing}")
+          html = Path("index.html").read_text(encoding="utf-8")
+          if "<html" not in html.lower() or "</html>" not in html.lower():
+              raise SystemExit("index.html is not a complete HTML document")
+          print("Static smoke check passed")
+          PY
