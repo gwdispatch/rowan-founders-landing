@@ -1,0 +1,6 @@
+customer_id,name,phone,status,last_order,total,review_note
+001,"Acme Services","610-555-0199","Active","2026-09-01","1250.00",""
+002,"North Star LLC","610-555-0118","Active","2026-09-03","780.00","Duplicate source row removed under customer_id rule"
+003,"Blue Ridge Co.","610-555-0144","Inactive","","","Ambiguous date 03/04/26 flagged for owner review"
+004,"Valley Supply","610-555-0175","Active","2026-09-05","245.50",""
+005,"Keystone Works","610-555-0180","Active","2026-09-06","99.99",""
